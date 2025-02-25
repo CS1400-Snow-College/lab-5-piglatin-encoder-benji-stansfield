@@ -1,0 +1,15 @@
+C:\Users\benji\code\my-code-dir\lab-5-piglatin-encoder-benji-stansfield\bin\Debug\net8.0\lab-5-piglatin-encoder-benji-stansfield.exe
+C:\Users\benji\code\my-code-dir\lab-5-piglatin-encoder-benji-stansfield\bin\Debug\net8.0\lab-5-piglatin-encoder-benji-stansfield.deps.json
+C:\Users\benji\code\my-code-dir\lab-5-piglatin-encoder-benji-stansfield\bin\Debug\net8.0\lab-5-piglatin-encoder-benji-stansfield.runtimeconfig.json
+C:\Users\benji\code\my-code-dir\lab-5-piglatin-encoder-benji-stansfield\bin\Debug\net8.0\lab-5-piglatin-encoder-benji-stansfield.dll
+C:\Users\benji\code\my-code-dir\lab-5-piglatin-encoder-benji-stansfield\bin\Debug\net8.0\lab-5-piglatin-encoder-benji-stansfield.pdb
+C:\Users\benji\code\my-code-dir\lab-5-piglatin-encoder-benji-stansfield\obj\Debug\net8.0\lab-5-piglatin-encoder-benji-stansfield.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benji\code\my-code-dir\lab-5-piglatin-encoder-benji-stansfield\obj\Debug\net8.0\lab-5-piglatin-encoder-benji-stansfield.AssemblyInfoInputs.cache
+C:\Users\benji\code\my-code-dir\lab-5-piglatin-encoder-benji-stansfield\obj\Debug\net8.0\lab-5-piglatin-encoder-benji-stansfield.AssemblyInfo.cs
+C:\Users\benji\code\my-code-dir\lab-5-piglatin-encoder-benji-stansfield\obj\Debug\net8.0\lab-5-piglatin-encoder-benji-stansfield.csproj.CoreCompileInputs.cache
+C:\Users\benji\code\my-code-dir\lab-5-piglatin-encoder-benji-stansfield\obj\Debug\net8.0\lab-5-piglatin-encoder-benji-stansfield.sourcelink.json
+C:\Users\benji\code\my-code-dir\lab-5-piglatin-encoder-benji-stansfield\obj\Debug\net8.0\lab-5-piglatin-encoder-benji-stansfield.dll
+C:\Users\benji\code\my-code-dir\lab-5-piglatin-encoder-benji-stansfield\obj\Debug\net8.0\refint\lab-5-piglatin-encoder-benji-stansfield.dll
+C:\Users\benji\code\my-code-dir\lab-5-piglatin-encoder-benji-stansfield\obj\Debug\net8.0\lab-5-piglatin-encoder-benji-stansfield.pdb
+C:\Users\benji\code\my-code-dir\lab-5-piglatin-encoder-benji-stansfield\obj\Debug\net8.0\lab-5-piglatin-encoder-benji-stansfield.genruntimeconfig.cache
+C:\Users\benji\code\my-code-dir\lab-5-piglatin-encoder-benji-stansfield\obj\Debug\net8.0\ref\lab-5-piglatin-encoder-benji-stansfield.dll
