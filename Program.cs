@@ -38,7 +38,7 @@ for (int i = 0; i < words.Length; i++)
 
         if (vowelIndex > 0) //if the vowel is found after the first letter
         {
-            words[i] = pigLatin.Substring(vowelIndex) + pigLatin.Substring(0, vowelIndex) + "ay"; //moves everything before the vowel to the end and adds "ay"
+            words[i] = pigLatin.Substring(vowelIndex) + pigLatin.Substring(0, vowelIndex).ToLower() + "ay"; //moves everything before the vowel to the end and adds "ay"
         }
         else
         {
@@ -47,5 +47,10 @@ for (int i = 0; i < words.Length; i++)
     }
 }
 
+/*Join the words together and write the phrase*/
 string pigLatinPhrase = string.Join(" ", words);
 Console.WriteLine(pigLatinPhrase);
+
+/*Create a random number for an offset*/
+Random rand = new Random();
+int randomOffset = rand.Next(1,26);
