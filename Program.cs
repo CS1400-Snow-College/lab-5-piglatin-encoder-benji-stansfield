@@ -14,7 +14,7 @@ string userPhrase = Console.ReadLine();
 string[] words = userPhrase.Split(" "); //splits the user's phrase into an array of words
 
 /*Convert to Pig Latin*/
-string vowels = "aeiouyAEIOUY";
+string vowels = "aeiouAEIOU";
 
 for (int i = 0; i < words.Length; i++)
 {
@@ -22,7 +22,7 @@ for (int i = 0; i < words.Length; i++)
 
     if (vowels.Contains(pigLatin[0])) //checks if a word starts with a vowel
     {
-        words[i] = pigLatin + "way";
+        words[i] = pigLatin + "way"; //adds "way to the end of the word
     }
     else
     {
@@ -49,8 +49,32 @@ for (int i = 0; i < words.Length; i++)
 
 /*Join the words together and write the phrase*/
 string pigLatinPhrase = string.Join(" ", words);
-Console.WriteLine(pigLatinPhrase);
+Console.WriteLine($"Pig Latin phrase: {pigLatinPhrase}");
 
 /*Create a random number for an offset*/
 Random rand = new Random();
 int randomOffset = rand.Next(1,26);
+
+/*Encoding the phrase with the offset number*/
+string[] codedWords = userPhrase.Split(" ");
+
+for (int i = 0; i < codedWords.Length; i++)
+{
+    char[] letters = codedWords[i].ToCharArray(); //turns the string into an array of chars
+
+    for (int j = 0; j < letters.Length; j++)
+    {
+        char letter = letters[j]; //stores each letter in 'letter'
+
+        if (char.IsLetter(letter)) //only encodes letters
+        {
+            char baseChar = char.IsUpper(letter) ? 'A' : 'a'; //looks to see if the character is upper or lowercase
+            letters[j] = (char)(baseChar + (letter - baseChar + randomOffset) % 26); //offsets the letter, subtracts the original letter (I had help online with this because I could not figure it out)
+        }
+    }
+    codedWords[i] = new string(letters); //puts the letters back into a string
+}
+
+/*Join the words together and write the encoded phrase*/
+string encodedPhrase = string.Join(" ", codedWords);
+Console.WriteLine($"Encoded message: {encodedPhrase}");
